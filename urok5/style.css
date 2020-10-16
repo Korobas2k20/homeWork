@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(111, 0, 255);
+}
+
+.dog{
+    background-color: darkturquoise;
+    position: relative;
+    height: 100px;
+    width: 180px;
+    top: 400px;
+    left: 200px;
+    border-radius: 0px 0px 0px 60px;
+}
+
+.head{
+    background-color: darkturquoise;
+    position: absolute;
+    height: 75px;
+    width: 120px;
+    top: -65px;
+    left: -70px;
+    border-radius: 0px 0px 0px 120px;
+}
+
+.leg1{
+    background-color: darkturquoise;
+    position: absolute;
+    height: 60px;
+    width: 20px;
+    top: 85px;
+    left: 25px;
+}
+.leg2{
+    background-color: darkturquoise;
+    position: absolute;
+    height: 60px;
+    width: 20px;
+    top: 85px;
+    left: 65px;
+}
+.leg3{
+    background-color: darkturquoise;
+    position: absolute;
+    height: 60px;
+    width: 20px;
+    top: 85px;
+    left: 120px;
+}
+.leg4{
+    background-color: darkturquoise;
+    position: absolute;
+    height: 60px;
+    width: 20px;
+    top: 85px;
+    left: 160px;
+}
+.tail{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 100px solid darkturquoise;
+    position: absolute;
+    transform: rotate(30deg);
+    left: 180px;
+    top: -60px;
+}
+.ear{
+    background-color: teal;
+    width: 45px;
+    height: 90px;
+    border-radius: 0px 0px 100px 100px;
+    position: absolute;
+    left: 10px;
+    top: -65px;
+}
