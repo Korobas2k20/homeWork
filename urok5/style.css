@@ -194,3 +194,119 @@ body{
     left: 94px;
     border-radius: 100%;
 }
+.mono1{
+    background-color: #421a02;
+    position: absolute;
+    height: 13px;
+    width: 19px;
+    top: -76px;
+    left: 50px;
+    border-radius: 50% 50% 50% 50%;
+}
+.mono2{
+    background-color: #421a02;
+    position: absolute;
+    height: 13px;
+    width: 19px;
+    top: -76px;
+    left: 82px;
+    border-radius: 50% 50% 50% 50%;
+}
+/* Руки */
+.hand1{
+    background-color: #421a02;
+    position: absolute;
+    height: 100px;
+    width: 40px;
+    transform: rotate(50deg);
+    top: 25px;
+    left: -35px;
+    border-radius: 30% 30% 50% 50%;
+}
+.hand2{
+    background-color: #421a02;
+    position: absolute;
+    height: 100px;
+    width: 40px;
+    transform: rotate(-50deg);
+    top: 25px;
+    left: 140px;
+    border-radius: 30% 30% 50% 50%;
+}
+/* Конец рук */
+
+/* Когти правой стороны*/
+.kogti1{
+    background-color: #421a02;
+    position: absolute;
+    height: 30px;
+    width: 10px;
+    transform: rotate(-50deg);
+    top: 76px;
+    left: 195px;
+    border-radius: 50% 50% 50% 50%;
+}
+.kogti2{
+    background-color: #421a02;
+    position: absolute;
+    height: 30px;
+    width: 10px;
+    transform: rotate(-50deg);
+    top: 90px;
+    left: 190px;
+    border-radius: 50% 50% 50% 50%;
+}
+.kogti3{
+    background-color: #421a02;
+    position: absolute;
+    height: 30px;
+    width: 10px;
+    transform: rotate(-30deg);
+    top: 98px;
+    left: 180px;
+    border-radius: 50% 50% 50% 50%;
+}
+/* Конец когтей правой стороны */
+
+/* Начало когдей левой стороны */
+.kogti4{
+    background-color: #421a02;
+    position: absolute;
+    height: 30px;
+    width: 10px;
+    transform: rotate(70deg);
+    top: 75px;
+    left: -63px;
+    border-radius: 50% 50% 50% 50%;
+}
+.kogti5{
+    background-color: #421a02;
+    position: absolute;
+    height: 30px;
+    width: 10px;
+    transform: rotate(70deg);
+    top: 91px;
+    left: -63px;
+    border-radius: 50% 50% 50% 50%;
+}
+.kogti6{
+    background-color: #421a02;
+    position: absolute;
+    height: 30px;
+    width: 10px;
+    transform: rotate(43deg);
+    top: 100px;
+    left: -53px;
+    border-radius: 50% 50% 50% 50%;
+}
+/* Конец когдей левой стороны */
+
+.rot{
+    background-color: red;
+    position: absolute;
+    height: 15px;
+    width: 30px;
+    top: -33px;
+    left: 60px;
+    border-radius: 50%;
+}
