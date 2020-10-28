@@ -12,6 +12,26 @@ body{
     top: 400px;
     left: 200px;
     border-radius: 0px 0px 0px 60px;
+    animation: forward 5s infinite linear;
+}
+
+.dog22{
+    background-color: #c4008d;
+    position: relative;
+    height: 60px;
+    width: 100px;
+    left: 40px;
+    top: 15px;
+    border-radius: 100% 30% 40% 60%;
+}
+
+@keyframes forward{
+    0%{
+        transform: translateX(1600px);
+    }
+    100%{
+        transform: translateX(-400px);
+    }
 }
 
 .head{
@@ -31,6 +51,8 @@ body{
     width: 20px;
     top: 85px;
     left: 25px;
+    animation: leganim1 0.5s infinite linear;
+    border-radius: 25%;
 }
 .leg2{
     background-color: darkturquoise;
@@ -39,6 +61,8 @@ body{
     width: 20px;
     top: 85px;
     left: 65px;
+    animation: leganim2 0.5s infinite linear 1s;
+    border-radius: 25%;
 }
 .leg3{
     background-color: darkturquoise;
@@ -47,6 +71,8 @@ body{
     width: 20px;
     top: 85px;
     left: 120px;
+    animation: leganim1 0.5s infinite linear 0.8s;
+    border-radius: 25%;
 }
 .leg4{
     background-color: darkturquoise;
@@ -55,6 +81,8 @@ body{
     width: 20px;
     top: 85px;
     left: 160px;
+    animation: leganim2 0.5s infinite linear;
+    border-radius: 25%;
 }
 .tail{
     width: 0;
@@ -66,6 +94,12 @@ body{
     transform: rotate(30deg);
     left: 180px;
     top: -60px;
+    animation: tailanimation infinite 5s;
+}
+@keyframes tailanimation{
+    50%{
+        transform: rotate(900deg);
+    }
 }
 .ear{
     background-color: teal;
@@ -75,6 +109,113 @@ body{
     position: absolute;
     left: 10px;
     top: -65px;
+}
+.eye{
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: -53px;
+    left: -20px;
+}
+
+.eye23{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: -56px;
+    left: -20px;
+}
+
+
+.nose{
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    left: -75px;
+    top: -70px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.nose22{
+    background-color: grey;
+    width: 8px;
+    height: 8px;
+    left: -75px;
+    top: -70px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.tongue{
+    background-color: red;
+    width: 15px;
+    height: 30px;
+    border-radius: 0px 0px 100px 100px;
+    position: absolute;
+    left: -50px;
+    top: -15px;
+    transform: rotate(20deg);
+    z-index: -1;
+    animation: tongueanimation infinite 1s;
+}
+@keyframes tongueanimation{
+    50%{
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes leganim1{
+    50%{
+        transform: rotate(20deg);
+    }
+}
+@keyframes leganim2{
+    50%{
+        transform: rotate(-25deg);
+    }
+}
+
+.grassleft{
+    position: absolute;
+    top: 63%;
+    left: 0%;
+    width: 55%;
+    height: 15%;
+}
+.grassright{
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    width: 55%;
+    height: 15%;
+}
+
+.round{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    left: 1000px;
+    top: 100px;
+    animation: sun infinite 10s linear alternate;
+}
+
+@keyframes sun{
+    0%{
+        transform: translate(-150px,0px);
+    }
+    50%{
+        transform: translate(0px,-60px);
+    }
+    100%{
+        transform: translate(150px, 0px);
+    }
 }
 /*-----------------------------------------------*/
 .chebur{
