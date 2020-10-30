@@ -275,24 +275,24 @@ body{
     left: 190px;
     border-radius: 90% 90% 50% 50%;
     transform: rotate(40deg);
-    animation: medusa infinite 6s;
+    animation: medusa infinite 5s;
 }
 
 @keyframes medusa{
     0%{
-        transform: translateX(-300px);
+        transform: translateX(-300px) rotate(40deg);
     }
     30%{
-        transform: translateX(200px);
+        transform: translateX(200px) rotate(40deg);
     }
     50%{
-        transform: translateX(700px);
+        transform: translateX(700px) rotate(40deg);
     }
     80%{
-        transform: translateX(1700px);
+        transform: translateX(1500px) rotate(40deg);
     }
     100%{
-        transform: translateX(2000px);
+        transform: translateX(2000px) rotate(40deg);
     }
 }
 
