@@ -1,7 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(#C5DDE8, #E5AC9E, #FFEED1) fixed;
+    background: url(source/bg.jpg);
+    background-size: cover;
 }
 .stick{
     position: absolute;
@@ -227,25 +228,4 @@ body {
     100%{
         opacity: 100;
     }
-}
-.sakura{
-    position: absolute;
-    top: 0;
-    left: 1200px;
-    width: 30%;
-    height: 50%;
-}
-.clouds{
-    position: absolute;
-    top: 80px;
-    left: 500px;
-    width: 30%;
-    height: 50%;
-}
-.sun{
-    position: absolute;
-    top: 50px;
-    left: 40px;
-    width: 15%;
-    height: 30%;
 }
