@@ -220,7 +220,7 @@ body {
     background: green;
     border-radius: 100% 0;
     transform: rotate(85deg);
-    animation: opacit infinite linear 2s 3s;
+    animation: opacit infinite linear 2s;
 }
 .green4{
     position: absolute;
@@ -236,10 +236,10 @@ body {
 }
 @keyframes opacit{
     0%{
-        opacity: 0;
+        opacity: 100;
     }
     100%{
-        opacity: 100;
+        opacity: 0;
     }
 }
 /* палки листьев */
