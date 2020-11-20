@@ -7,7 +7,7 @@ body{
     top: 50%;
     height: 100%;
     width: 100%;
-    background-color: #D6B99F;
+    background: linear-gradient(#D6B99F 30%, #CA9F7D 30%);
 }
 .screen{
     position: relative;
@@ -54,14 +54,16 @@ input{
     position: absolute;
     width: 320px;
     height: 240px;
-    background-color: #C7EC9C;
     transform: rotateY(-180deg);
+    background-image: url(source/minoins.jpg);
+    background-size: 370px 230px;
 }
 .front{
     position: absolute;
     width: 320px;
     height: 240px;
-    background-color: #63B8F2;
+    background-image: url(source/windows.png);
+    background-size: 350px 280px;
 }
 .button1{
     position: absolute;
@@ -74,11 +76,13 @@ input{
     width: 100px;
 }
 .tittle{
-    color: white;
+    font-weight: bold;
+    color: #1855d8;
     font-size: 30px;
     position: absolute;
     left: 75px;
     top: 30px;
+    font-family: 'Comfortaa', cursive;
 }
 .imgboard{
     position: absolute;
@@ -120,9 +124,137 @@ input{
     top: 200px;
 }
 .title3{
+    font-family: 'Comfortaa', cursive;
     position: absolute;
     color: white;
     font-size: 30px;
     left: 450px;
     top: 240px;
+}
+.photo{
+    position: absolute;
+    width: 94px;
+    height: 180px;
+    left: 200px;
+    top: 50px;
+    transform: rotate(45deg) skewX(-20deg);
+}
+
+.left{
+    position: absolute;
+    height: 10px;
+    width: 190px;
+    left: 180px;
+    top: 170px;
+    background-color: #F23A3A;
+    transform: rotate(-25deg) skewX(-20deg);
+}
+.right{
+    position: absolute;
+    height: 63px;
+    width: 10px;
+    left: 155px;
+    top: 153px;
+    background-color: black;
+    transform: rotate(95deg) skewX(-40deg);
+}
+.isometrica:hover{
+    transform: translateY(-40px);
+}
+.box{
+    position: absolute;
+    width: 100px;
+    height: 140px;
+    left: 1100px;
+    top: 30px;
+    border-radius: 0px 30px 10px 10px;
+    background-color: #9219f5;
+    transform: rotate(-45deg) skewX(20deg);
+}
+.leftbox{
+    position: absolute;
+    width: 22px;
+    height: 66px;
+    left: 1204px;
+    top: 108px;
+    background-color: #611E9F;
+    transform: rotate(90deg) skewX(45deg);
+}
+.rightbox{
+    position: absolute;
+    height: 20px;
+    width: 149px;
+    left: 1040px;
+    top: 135px;
+    background-color: #AD72E3;
+    transform: rotate(204deg) skewX(25deg);
+}
+.glass1{
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    left: 1090px;
+    top: 65px;
+    background-color: #63B8F2;
+    transform: rotate(-45deg) skewX(20deg);
+}
+.round1{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 1200px;
+    top: 85px;
+    background-color: black;
+    border-radius: 40%;
+    transform: rotate(-45deg) skewX(20deg);
+}
+.round2{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 1207px;
+    top: 102px;
+    background-color: black;
+    border-radius: 40%;
+    transform: rotate(-45deg) skewX(20deg);
+}
+.round3{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 1184px;
+    top: 107px;
+    background-color: black;
+    border-radius: 40%;
+    transform: rotate(-45deg) skewX(20deg);
+}
+.round4{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 1175px;
+    top: 90px;
+    background-color: black;
+    border-radius: 40%;
+    transform: rotate(-45deg) skewX(20deg);
+}
+.line2{
+    position: absolute;
+    width: 35px;
+    height: 10px;
+    left: 1175px;
+    top: 135px;
+    background-color: black;
+    transform: rotate(-45deg) skewX(20deg);
+}
+.wall{
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    background: linear-gradient(to right,
+    #63A69F 20%,
+    #F2E1AC 20%, #F2E1AC 40%,
+    #F2836B 40%, #F2836B 60%,
+    #F9B477 60%, #F9B477 80%,
+    #63A69F 80%);
 }
