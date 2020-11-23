@@ -258,3 +258,21 @@ input{
     #F9B477 60%, #F9B477 80%,
     #63A69F 80%);
 }
+.lampo4ka{
+    position: absolute;
+    width: 300px;
+    left: 1500px;
+    top: -200px;
+}
+.zip1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1290px;
+    top: 170px;
+    background-color: white;
+    transform: rotate(-45deg) skewX(31deg);
+}
+.zip1 p{
+    transform:  rotate(100deg) translate(30px);
+}
